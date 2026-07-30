@@ -1,8 +1,28 @@
 aid: layer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/layer.png
 name: Layer
-description: Layer is a company surfaced as a portfolio company of bloomberg-beta, emergence-capital and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Layer is a living digital art platform that curates code-based generative
+  artwork and ultra-high-resolution video art for everyday display. Its
+  developer surface is an artist-facing, first-party TypeScript SDK (a browser
+  global, $layer) that lets creators declare customizable parameters, register a
+  canvas for screenshot capture, and supply generated video previews back to
+  Layer Studio, alongside published guidelines for generative and Ultra Res
+  artwork. Layer is a portfolio company of Bloomberg Beta and Emergence Capital,
+  added to the API Evangelist network and enriched from its public developer
+  documentation. Layer exposes a client-side SDK rather than a public REST/HTTP
+  API.
 url: https://raw.githubusercontent.com/api-evangelist/layer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Digital Art
+- Generative Art
+- Creative Tools
+- SDK
+- TypeScript
+- WebGL
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://layer.com/
+- type: Documentation
+  url: https://docs.layer.com/
+- type: GettingStarted
+  url: https://docs.layer.com/generative/principles
+- type: APIReference
+  url: https://docs.layer.com/generative/layer-sdk
+- type: Packages
+  url: packages/layer-packages.yml
+- type: SDKs
+  url: packages/layer-packages.yml
+- type: LLMsTxt
+  url: llms/layer-llms.txt
+- type: DomainSecurity
+  url: security/layer-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
