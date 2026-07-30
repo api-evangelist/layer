@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.layer.com/generative/layer-sdk
+packages:
+- language: typescript
+  registry: cdn
+  name: Layer SDK
+  official: true
+  description: >-
+    First-party TypeScript SDK for building code-based generative artwork on the
+    Layer platform. Exposed as a global object ($layer: LayerSDK) that lets an
+    artwork declare customizable parameters, register a canvas for capture, and
+    supply generated video previews back to the Layer Studio. Distributed as a
+    CDN script rather than a package-registry module.
+  loader: https://script.layerstatic.com/layer/sdk-latest.js
+  types: https://script.layerstatic.com/layer/sdk-latest.d.ts
+  global: $layer
+  copyright: Copyright Layer, Inc. 2025
+  author: Sam Shull
+  version: 908177a67662686937eda7b28d38fe611ce4cd03
+  surface:
+    methods:
+    - params(...params)
+    - registerCanvas(canvasElement)
+    - preview(video, thumbnail?)
+    - startFPSOverlay()
+    - stopFPSOverlay()
+    parameter_types:
+    - NUMBER
+    - BOOLEAN
+    - COLOR
+    - LIST
+    - HASH
+    events:
+    - layer:play
+    - layer:pause
+    - layer:reset
+    - layer:preview
+    - layer:parameters
+    - layer:paramchange
