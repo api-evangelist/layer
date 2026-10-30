@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Layer is a company surfaced as a portfolio company of bloomberg-beta, emergence-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Layer is a living digital art platform that curates code-based generative artwork and ultra-high-resolution video art for everyday display. Its developer surface is an artist-facing, first-party TypeScript SDK (a browser global, $layer) that lets creators declare customizable parameters, register a canvas for screenshot capture, and supply generated video previews back to Layer Studio, alongside published guidelines for generative and Ultra Res artwork. Layer is a portfolio company of Bloomberg Beta and Emergence Capital, added to the API Evangelist network and enriched from its public developer documentation. Layer exposes a client-side SDK rather than a public REST/HTTP API.
 
-Backed by: bloomberg-beta, emergence-capital — https://layer.com/
+**Areas:** Company · Digital Art · Generative Art · Creative Tools · SDK · TypeScript · WebGL · Media
+
+## Layer on APIs.io
+
+Everything profiled for Layer is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/layer/](https://apis.io/providers/layer/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Layer Domain Security](https://apis.io/security/layer/layer-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://layer.com/)
+- [Documentation](https://docs.layer.com/)
+- [Getting started](https://docs.layer.com/generative/principles)
+- [API reference](https://docs.layer.com/generative/layer-sdk)
+- [Blog](https://layer.com/articles)
+
+## API Evangelist rating
+
+**Kin Score 11.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/layer/](https://apis.io/providers/layer/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Layer: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/layer/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
